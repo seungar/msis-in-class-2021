@@ -3,6 +3,7 @@ const Offer = {
         return {
             "dummy":"Hello sohaa"
             "total":5
+            "list": ["banana", "apple", "orange"]
         }
     }
 }
