@@ -1,9 +1,25 @@
 const Offer = {
     data() {
         return {
-            "dummy":"Hello sohaa",
-            "total":5,
-            "list": ["banana", "apple", "orange"]
+           
+"offers":[
+    {   "id":1,
+        "name":"John",
+        "salary":80000, 
+        "bonus":10000, 
+        "company":"EY", 
+        "offerdate":"2021-10-15"
+    },
+        
+    {   
+        "id":2,
+        "name":"Sam",
+        "salary":85000, 
+        "bonus":9000, 
+        "company":"Deloitte", 
+        "offerdate":"2021-09-02"
+    }
+    ]
         }
     }
 }
