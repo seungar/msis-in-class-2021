@@ -2,7 +2,7 @@
 {
     "offer": [
     {   "id":1,
-        "name":"John"
+        "name":"John",
         "salary":80000, 
         "bonus":10000, 
         "company":"EY", 
@@ -11,7 +11,7 @@
         
     {   
         "id":2,
-        "name":"Sam"
+        "name":"Sam",
         "salary":85000, 
         "bonus":9000, 
         "company":"Deloitte", 

@@ -16,12 +16,20 @@ const Offer = {
         "name":"Sam",
         "salary":85000, 
         "bonus":9000, 
-        "company":"Deloitte", 
+        "company":"Deloitte!", 
         "offerdate":"2021-09-02"
     }
     ]
         }
+    },
+    created(){
+        fetch('https://randomuser.me/api/', )
+        .then( response => response.json())
+        .then( function (parsedJSON){
+        })
+        .catch( errFunc )
     }
 }
+
 
   Vue.createApp(Offer).mount('#offerApp')
