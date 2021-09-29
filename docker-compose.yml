@@ -3,7 +3,10 @@ services:
   msis-salary:
     build: .
     ports:
-      - "8080:80"
+      - "8088:80"
     volumes:
-      - ./public:/var/www/html
+      - ./app/public:/var/www/html
+    env_file:
+      - ./docker/env
+      
     
