@@ -31,7 +31,7 @@ $db = DbConnection::getConnection();
 // Step 2: Create & run the query
 // Note the use of parameterized statements to avoid injection
 $stmt = $db->prepare(
-  'UPDATE offer SET companyName = ?, salary = ?, bonus = ?, offerDate = ? WHERE id = ?'
+  'UPDATE offer SET companyName = ?, salary = ?, bonus = ?, offerDate = ?, status = ? WHERE id = ?'
 );
 
 $stmt->execute([
@@ -39,6 +39,7 @@ $stmt->execute([
   $_POST['salary'],
   $_POST['bonus'],
   $_POST['offerDate'],
+  $_POST['status'],
   $_POST['id']
 ]);
 
